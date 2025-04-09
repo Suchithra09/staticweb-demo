@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="dashboard">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <h2>Dashboard</h2>
+            <ul>
+                <li><a href="#">🏠 Home</a></li>
+                <li><a href="#">📚 Courses</a></li>
+                <li><a href="#">📊 Progress</a></li>
+                <li><a href="#">🔔 Notifications <span class="badge">3</span></a></li>
+                <li><a href="#">⚙ Settings</a></li>
+                <li><a href="#">🚪 Logout</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <header>
+                <h1>Welcome, Student</h1>
+            </header>
+
+            <section class="profile">
+                <img src="WhatsApp Image 2024-07-21 at 10.01.24 AM" alt="Student Profile">
+                <h2>SUCHITHRA</h2>
+                <p>Computer Science, Year 3</p>
+            </section>
+
+            <section class="courses">
+                <h2>cse</h2>
+                <div class="course">
+                    <h3>Data Science</h3>
+                    <progress value="70" max="100"></progress>
+                    <p>Progress: 70%</p>
+                </div>
+                <div class="course">
+                    <h3>Machine Learning</h3>
+                    <progress value="50" max="100"></progress>
+                    <p>Progress: 50%</p>
+                </div>
+                <div class="course">
+                    <h3>Cloud Computing</h3>
+                    <progress value="85" max="100"></progress>
+                    <p>Progress: 85%</p>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
